@@ -1,0 +1,34 @@
+# Book settings
+# Learn more at https://jupyterbook.org/customize/config.html
+
+title: eX3 - Experimental Infrastructure for Exploration of Exascale Computing
+author: Thomas Roehr
+logo: "_static/logo.png"
+copyright: "2025"
+-description: The primary objective of the eX3 project is to provide an experimental, heterogeneous computational cluster as a national infrastructure that will help Norwegian HPC researchers, HPC/Big Data users, data center management, and HPC industry prepare for the coming exascale era of computing.
+
+# Force re-execution of notebooks on each build.
+# See https://jupyterbook.org/content/execute.html
+execute:
+  execute_notebooks: force
+
+# Information about where the book exists on the web
+repository:
+  url: https://github.com/simula/ex3.github.io
+
+html:
+  use_issues_button: true
+  use_repository_button: true
+  extra_navbar: See more at <a href="https://ex3.simula.no">ex3.simula.no</a>
+
+parse:
+  myst_enable_extensions:
+    - amsmath
+    - dollarmath
+    - linkify
+
+sphinx:
+  extra_extensions:
+    - "sphinx.ext.autodoc"
+    - "sphinx.ext.napoleon"
+    - "sphinx.ext.viewcode"
