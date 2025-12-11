@@ -1,6 +1,0 @@
-format: jb-book
-root: index
-
-chapters:
-  - file: usage.md
-  - file: about.md

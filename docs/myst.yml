@@ -1,0 +1,19 @@
+version: 1
+extends:
+  - ./authors.yml
+project:
+  title: eX3 - Experimental Infrastructure for Exploration of Exascale Computing
+  copyright: '2025'
+  github: simula/ex3.github.io
+  toc:
+    - file: index.md
+    - file: usage.md
+      children:
+        - file: usage/environment_modules.md
+        - file: usage/slurm.md
+    - file: about.md
+site:
+  options:
+    logo: _static/logo.png
+    folders: true
+  template: book-theme
