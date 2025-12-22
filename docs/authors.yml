@@ -1,0 +1,13 @@
+version: 1
+project:
+  contributors:
+    - id: 2maz
+      name: Thomas M. Roehr
+      orcid: 0000-0002-7715-7052
+      email: roehr@simula.no
+      github: 2maz
+      affiliations:
+        - id: SRL
+  affiliations:
+    - id: SRL
+      name: Simula Research Laboratory

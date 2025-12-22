@@ -73,3 +73,6 @@ ENV/
 
 # pytest
 .pytest_cache/
+# MyST build outputs
+_build
+_site
